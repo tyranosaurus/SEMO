@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_semo" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="세상의\n 모든 메모 '세모'"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bar_input"
+        android:ems="10"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#88ffffff"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bar_input"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#88ffffff"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bar_login"
+        android:gravity="center"
+        android:text="로그인"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="16dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <CheckBox
+            android:id="@+id/checkBoxAutoLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#ffffffff"
+            android:text="자동 로그인 "
+            android:textColor="#ffffffff"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/textViewJoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="| 세모 회원가입"
+            android:textColor="#ffffffff"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+</LinearLayout>

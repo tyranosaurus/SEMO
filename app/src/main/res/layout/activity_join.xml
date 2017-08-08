@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/login_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageProfile"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/profile_default"
+        app:civ_border_color="#bdbdbd"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반갑습니다! 세모입니다!"
+        android:layout_gravity="center"
+        android:textColor="#ffffffff"
+        android:layout_marginBottom="30dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bar_input"
+        android:ems="10"
+        android:hint="이메일"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffff"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextNickname"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bar_input"
+        android:ems="10"
+        android:hint="닉네임"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffff"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bar_input"
+        android:ems="10"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffff"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword2"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bar_input"
+        android:ems="10"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textColorHint="#ffffff"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="16dp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/textViewCompleteJoin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#4990e2"
+        android:gravity="center"
+        android:text="완료"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:textSize="16dp" />
+
+</LinearLayout>

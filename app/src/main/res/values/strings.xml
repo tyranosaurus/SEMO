@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SEMO</string>
+    <string name="mymemo_text">세상의 모든메모 \'세모\'\n당신의 생각을 메모에 적어보세요.</string>
+    <string name="recyclerbin_text">휴지통으로 이동한 메모는 언제든\n복구 및 영구삭제가 가능합니다.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="guide01">세모는 유저의 생각과 유사하거나 색다른 타인들의 생각을 연결시켜, 전에는 생각지도 못했던 아이디어나 노하우를 얻을 수 있는 아이데이션 메모 서비스입니다.</string>
+    <string name="guide02">메모 간편작성과 상세작성을 통해 보다 효과적으로 유저의 생각을 담아낼 수 있습니다.</string>
+    <string name="guide03">작성된 메모에 키워드 등록시 연결되는 메모들의 정확성을 높혀줄 수 있습니다.</string>
+    <string name="guide04">작성한 메모는 아이데이션 서비스의 메모 조합을 통해 한 단계 발전시킬 수 있습니다.</string>
+    <string name="guide05">메모 상세보기에서는 내 메모를 연결한 타인의 메모와 내 메모의 댓글을 확인할 수 있습니다.</string>
+    <string name="guide06">원하는 친구들과 메모를 공유하고 함께 아이데이션할 수 있습니다.</string>
+</resources>

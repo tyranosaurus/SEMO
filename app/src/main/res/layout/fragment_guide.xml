@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/guide01" />
+
+    <Button
+        android:id="@+id/button_complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/colorToolbar"
+        android:text="완료"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo_semo" />
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginTop="20dp"
+        android:text="세모는 유저의 생각과 유사하거나 색다른 타인들의 생각을 연결시켜, 전에는 생각지도 못했던 아이디어나  노하우를 얻을 수 있는 아이데이션 메모 서비스입니다.  "
+        android:textColor="#ffffffff"
+        android:textSize="13dp" />
+</FrameLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92896623986",
+    "firebase_url": "https://semo-3c12a.firebaseio.com",
+    "project_id": "semo-3c12a",
+    "storage_bucket": "semo-3c12a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92896623986:android:b3b047683f714bb8",
+        "android_client_info": {
+          "package_name": "com.tacademy.semo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92896623986-phdbj8f480hopg4oik1v6138enr5slt2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tacademy.semo",
+            "certificate_hash": "08649fc506f040b6b631eee1a7af126bf5c8eb4e"
+          }
+        },
+        {
+          "client_id": "92896623986-valsmu0acfp01ie43eime1h737laiedl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPHCvPIfm9hooUD3UjqqimroPH7GuYbxY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92896623986-valsmu0acfp01ie43eime1h737laiedl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

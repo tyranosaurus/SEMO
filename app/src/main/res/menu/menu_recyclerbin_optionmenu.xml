@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/restore"
+        android:title="복원하기"/>
+    <item
+        android:id="@+id/selectedDelete"
+        android:title="선택삭제"/>
+    <item
+        android:id="@+id/allDelete"
+        android:title="전체삭제"/>
+</menu>

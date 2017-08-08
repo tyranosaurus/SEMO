@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/keywordSetting"
+        android:title="키워드 설정"/>
+    <item
+        android:id="@+id/sharing"
+        android:title="공유하기"/>
+</menu>

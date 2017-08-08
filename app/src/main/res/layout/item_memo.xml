@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayoutView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="-16dp"
+    android:layout_marginLeft="-16dp"
+    android:layout_marginRight="-16dp"
+    android:layout_marginTop="-16dp"
+    android:background="@drawable/memo_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:background="#3573bc"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewPin"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/icon_unpin" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imageViewIdeation"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="7dp"
+            app:srcCompat="@drawable/icon_ideation" />
+
+        <ImageView
+            android:id="@+id/imageViewDetailMemo"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            app:srcCompat="@drawable/icon_detail" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMemoContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:ellipsize="end"
+            android:maxLines="8"
+            android:text="메모 내용" />
+    </LinearLayout>
+
+
+</LinearLayout>
